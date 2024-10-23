@@ -1,21 +1,26 @@
 {
-  "name": "lez08_ci_test_its",
+  "name": "esame-ci-cd",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "jest"
   },
   "jest": {
     "testEnvironment": "node"
   },
-  "author": "",
+  "author": "Il tuo nome",
   "license": "ISC",
-  "description": "",
+  "description": "API di gestione libri per il progetto di esempio",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElCaballeroIrascible/Esame_CI-CD.git"
+  },
   "dependencies": {
     "body-parser": "^1.20.3",
     "express": "^4.21.1",
     "jest": "^29.7.0",
     "supertest": "^7.0.0",
     "uuid": "^10.0.0"
-  }
+  },
+  "devDependencies": {}
 }
